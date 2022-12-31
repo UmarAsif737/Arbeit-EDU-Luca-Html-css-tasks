@@ -1,0 +1,53 @@
+caption {
+  background-color: #dddddd;
+}
+.heading {
+  background-color: #ddffdd;
+}
+table {
+  border-collapse: collapse;
+  margin-top: 10vh;
+}
+
+tr:nth-child(5),
+tr:nth-child(3) {
+  border-bottom: 0.1em dashed black;
+}
+
+.outlined {
+  border-right: 0.1em dashed black;
+}
+th:nth-child(3),
+th:nth-child(1),
+th:nth-child(5) {
+  border-right: 0.1em solid transparent;
+  border-left: 0.1em solid transparent;
+}
+td {
+  margin-top: 10vh;
+  border: 0.05em dashed black;
+}
+
+.sameColor {
+  background-color: #ffdddd;
+}
+
+.colorChange {
+  background-color: #ddddff;
+}
+tr:nth-child(2) {
+  border-top: 0.1em dashed black;
+}
+col:nth-child(1) {
+  border-left: 0.1em dashed black;
+}
+tr:last-child {
+  border-top: 0.1em dashed black;
+}
+col:nth-child(5) {
+  border-left: 0.1em dashed black;
+  empty-cells: hide;
+}
+.noBorder {
+  border-left: 0.1em dashed transparent;
+}

@@ -1,0 +1,52 @@
+.personalism,
+.berwatung {
+  display: flex;
+  flex-direction: column;
+  margin: -1.6em 1em 1em 1em;
+}
+.personalism p,
+.berwatung p {
+  background-color: white;
+  width: fit-content;
+}
+.container {
+  border: 0.1em solid black;
+  border-right: none;
+  margin: 0.5em 0;
+}
+form {
+  margin-top: 4em;
+}
+.berwatung label,
+.berwatung div {
+  margin-top: 1em;
+}
+
+.personalism select,
+#bewertung {
+  width: 7em;
+}
+#vorname,
+#name,
+#email {
+  background-color: #bbbbff;
+  width: 15em;
+}
+
+#arbeitnehmende {
+  background-color: rgb(165, 161, 161);
+  width: 15em;
+}
+
+#alter {
+  width: 5em;
+}
+#alter:invalid {
+  background-color: red;
+}
+#alter:valid {
+  background-color: green;
+}
+#bemerkungen {
+  width: 30em;
+}

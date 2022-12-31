@@ -1,0 +1,57 @@
+img {
+  width: 20vw;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  font-size: large;
+  text-decoration: underline;
+}
+
+a:active {
+  color: grey;
+}
+.supervisor {
+  font-weight: bold;
+}
+.contactDetails {
+  line-height: 0.1em;
+  margin-top: 2em;
+}
+
+.TimBerners {
+  background-color: green;
+  color: white;
+}
+
+.textCapital {
+  text-transform: uppercase;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.cssi {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+}
+.kategorien {
+  margin-top: 15vh;
+}
+.giveMargin {
+  margin-top: 1em;
+}
